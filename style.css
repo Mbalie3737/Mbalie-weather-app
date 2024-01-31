@@ -1,3 +1,13 @@
 h1 {
     color:blue;
 }
+body {
+    background-color: #e3f6f5;
+}
+.weather-container {
+   background-color:#bae8e8; 
+    margin:30px auto;
+    padding:20px;
+max-width: 600px;
+border-radius: 16px;
+}
