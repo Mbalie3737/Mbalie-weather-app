@@ -3,6 +3,8 @@ h1 {
 }
 body {
     background-color: #e3f6f5;
+    font-family: 'PT Mono', monospace;
+font-family: 'Roboto', sans-serif;
 }
 .weather-container {
    background-color:#bae8e8; 
@@ -10,4 +12,19 @@ body {
     padding:20px;
 max-width: 600px;
 border-radius: 16px;
+cursor: pointer;
+}
+.search-input {
+    width:40%;
+    border:none;
+    padding:16px;
+    border-radius: 6px;
+    margin:5px
+}
+.search-button {
+    border:none;
+    padding:16px;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: white;
 }
