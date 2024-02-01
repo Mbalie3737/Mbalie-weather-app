@@ -6,6 +6,7 @@ font-family: 'Roboto', sans-serif;
 }
 a {
     text-decoration: none;
+    color: #5e87b8;
 }
 .weather-container {
    background-color:#bae8e8; 
@@ -54,6 +55,9 @@ footer {
     font-size: 25px;
 
 }
+.icon {
+    width: 48px;
+}
 .weather-city {
     font-size: 38px;
 line-height: 48px;
@@ -62,4 +66,9 @@ margin: 0;
 .app-details {
     color: rgba(0,0,0,0.6);
     font-size: 15px;
+    font-weight: 600px;
+}
+.app-details strong {
+    color:#5e87b8;
+
 }
