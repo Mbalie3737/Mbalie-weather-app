@@ -48,18 +48,26 @@ footer {
     display: flex;
     justify-content: space-between;
 }
+.weather-temperature-container {
+    display: flex;
+}
 .temperature {
-    font-size: 60px;
+    font-size: 66px;
+    font-weight: bold;
+    margin-left: 5px;
+
 }
 .degrees {
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
 
 }
 .icon {
-    width: 48px;
+    font-size: 48px;
+    margin-top: 10px;
 }
 .weather-city {
-    font-size: 38px;
+    font-size: 40px;
 line-height: 48px;
 margin: 0;
 }

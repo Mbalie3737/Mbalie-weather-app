@@ -12,23 +12,28 @@
 <body>
     <div class="weather-container">
     <header>
-       <form class="search-form">
-        <input type="text" placeholder="Enter a city..." required class="search-input">
-        <input type="button" value="search" class="search-button">
+       <form class="search-form" id="search-form">
+        <input type="search" 
+        placeholder="Enter a city..." 
+        required class="search-input"
+         id="search-form-input" />
+        <input type="submit" 
+        value="search" 
+        class="search-button" />
        </form> 
        </header>
        <main>
         <div class="weather-input-container">
         <div>
-        <h1 class="weather-city">South Africa</h1>
+        <h1 class="weather-city" id="weather-city">South Africa</h1>
        <p class="app-details">
         Wednesday 20:14, clear sky
        </br>
        Humidity:<strong>80%</strong>,wind:<strong>3.09km/h</strong>
        </p>
        </div>
-       <div class="weather-temperature">
-        <span class="icon">🌤️</span> <span class="temperature">27</span><span class="degrees">°C</span>
+       <div class="weather-temperature-container">
+        <div class="icon">🌤️</div> <div class="temperature">27</div><div class="degrees">°C</div>
         </div>
         </div>
        
@@ -36,5 +41,6 @@
 </main>
     <footer>This project was coded by <a href="https://github.com/Mbalie3737">Mbali Letsoara</a> and published on <a href="https://github.com/Mbalie3737/Mbalie-weather-app">Github</a> hosted on <a href="https://main--mbalie.netlify.app/">Netlify</a>    </footer>
     </div>
+    <script src="index.js"></script>
 </body>
 </html>
